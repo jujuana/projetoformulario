@@ -1,0 +1,64 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    background-color: #DDF7E3
+}
+
+fieldset{
+    margin: 1%;
+}
+
+h1 {
+    text-shadow:rgb(34, 56, 38) 0.1em 0.1em 0.2em ;
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    background-color: #92c28e;
+    padding: 30px;
+    
+}
+.Formulario {
+    margin: 1% 0% 0% 1%;
+}
+.Formulario2 {
+    margin: 1% 1% 1% 1%;
+}
+#nome {
+    background-color: #DDF7E3;
+}
+#sobrenome {
+    background-color: #DDF7E3;
+}
+#endereço {
+    background-color: #DDF7E3;
+}
+#numero {
+    background-color: #DDF7E3;
+}
+#bairro {
+    background-color: #DDF7E3;
+}
+#telefone {
+    background-color: #DDF7E3;
+}
+#if {
+    background-color: #DDF7E3;
+}
+.botao {
+    text-align: center;
+    color: #5D9C59;
+    margin-top: 0.5%;
+    
+}
+#Finalizar {
+    background-color: #7b927a;
+    width: 10%;
+    height: 60%;
+}
+#sugestão {
+    background-color: #DDF7E3;
+    width: 60%;
+    height: 100px;
+}

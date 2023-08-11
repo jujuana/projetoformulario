@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Cadastre-se em nossa Loja</h1>
+    <form>
+        <fieldset>
+            <div class="Formulario">
+                <label for="nome" >Nome: </label>
+                <input type="text" name="nome" id="nome" required>
+            </div>
+            <div class="Formulario"> 
+                <label for="sobrenome" >Sobrenome: </label>
+                <input type="text" name="sobrenome" id="sobrenome" required>
+            </div>
+            <br>
+            <div>
+                <label class="Formulario2"></label>
+                <label for="endereço" >Endereço: </label>
+                <input type="text" name="endereço" id="endereço" required>
+                <label for="numero">Numero: </label>
+                <input type="number" name="numero" id="numero" required>
+                <label for="bairro" >Bairro: </label>
+                <input type="text" name="bairro" id="bairro" required>
+            </div>
+            <br>
+            <div>
+                <label for="telefone" >Telefone: </label>
+                 <input type="number" name="telefone" id="telefone" required>
+            </div>
+            <br>
+            <div>
+                <label>Qual UF você reside? </label>
+                <select id="if" required>
+                    <option>selecione uma opção</option>
+                    <option>Acre (AC)</option>
+                    <option>Alagoas (AL)</option>
+                    <option>Amapá (AP)</option>
+                    <option>Amazonas (AM)</option>
+                    <option>Bahia (BA)</option>
+                    <option>Ceará (CE)</option>
+                    <option>Distrito Federal (DF)</option>
+                    <option>Espírito Santo (ES)</option>
+                    <option>Goiás (GO)</option>
+                    <option>Maranhão (MA)</option>
+                    <option>Mato Grosso (MT)</option>
+                    <option>Mato Grosso do Sul (MS)</option>
+                    <option>Minas Gerais (MG)</option>
+                    <option>Pará (PA)</option>
+                    <option>Paraíba (PB)</option>
+                    <option>Paraná (PR)</option>
+                    <option>Pernambuco (PE)</option>
+                    <option>Piauí (PI)</option>
+                    <option>Rio de Janeiro (RJ)</option>
+                    <option>Rio Grande do Norte (RN)</option>
+                    <option>Rio Grande do Sul (RS)</option>
+                    <option>Rondônia (RO)</option>
+                    <option>Roraima (RR)</option>
+                    <option>Santa Catarina (SC)</option>
+                    <option>São Paulo (SP)</option>
+                    <option>Sergipe (SE)</option>
+                    <option>Tocantins (TO)</option>
+                </select>
+            </div>
+            </br>
+            <div>
+                <label>Qual é o seu gênero?</label>
+            </div>
+            <br>
+            <div>
+                <label>
+                    <input type="radio" name="genero" value="Masculino" >Masculino
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="genero" value="Feminino" >Feminino
+                </label>
+            </div>
+                <label> 
+                    <input type="radio" name="genero" value="Outro" >Outro
+                </label>
+            <div>
+            <br>
+                <label>Você possui idade entre 16 e 18 anos?</label>
+            </div>
+            <br>
+                    <input type="radio" name="idade" value="Sim" >Sim
+                </label>
+            </div>
+            <div>
+                <input type="radio" name="idade" value="Não" >Não
+            </div>
+            <br>
+            <div>
+                <label>Preferências</label>
+            </div>
+                <br>
+                <input type="checkbox" name="acessorios" id="acessorios" value="acessorios">
+                <label for="acessorios" >Acessórios</label>
+                <br>
+                <input type="checkbox" name="decoraçao" id="decoraçao" value="decoraçao">
+                <label for="decoraçao" >Decoração</label>
+                <br>
+                <input type="checkbox" name="Outro" id="Outro" value="Outro">
+                <label for="Outro" >Outro</label>
+            </div>
+            <br>
+            <div>
+                <br>
+                <label>Como conheceu nossa loja?</label>
+            </div>
+                <br>
+                <input type="checkbox" name="amigos" id="amigos" value="amigos">
+                <label for="amigos" >Amigos</label>
+                <br>
+                <input type="checkbox" name="anucio" id="anuncio" value="anuncio">
+                <label for="anuncio" >Anúncio</label>
+                <br>
+                <input type="checkbox" name="Outro" id="Outro" value="Outro">
+                <label for="Outro" >Outro</label>
+            <br>
+            <div>
+            <br>
+                <label>O que gostaria que fosse melhorado? deixe uma sugestão!!</label>
+            </div>
+            <div>
+                <label>
+                <textarea name="sugestão" id="sugestão"></textarea>
+                </label>
+            </div> 
+            </fieldset>
+                <div class="botao">
+                <button type="submit" value="Finalizar" id="Finalizar" name="Finalizar"> Finalizar </button>
+                </div>
+                    
+                        
+
+
+
+
+            
+
+    
+</body>
+</html>
